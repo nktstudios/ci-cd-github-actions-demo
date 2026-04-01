@@ -50,7 +50,7 @@ venv\Scripts\activate     # Windows
 ```uvicorn app.main:app --reload```
 
 #### 3. Run Test Locally
-```pytest``
+```pytest```
 
 #### 4. Open in your browser
 ```http://127.0.0.1:8000```
