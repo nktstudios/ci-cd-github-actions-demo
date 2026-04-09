@@ -6,7 +6,7 @@ client = TestClient(app)
 def test_root():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == {"message": "Hello Github Actions Demo from version 1!"}
+    assert response.json() == {"message": "Hello Github Actions Demo from version 2!"}
 
 def test_sum():
     response = client.get("/sum/2/3")
