@@ -11,5 +11,5 @@ def root():
 @app.get("/sum/{a}/{b}")
 def sum_numbers(a: int, b: int):
     return {
-        "result": a + b 
+        "result": a + b + b
         }
